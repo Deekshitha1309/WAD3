@@ -1,0 +1,94 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+body.heading {
+    background-image: url("https://i.pinimg.com/736x/36/ab/bf/36abbfe87597f0c307f6b6e78f630fa8.jpg");
+}
+
+.heading h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.heading p {
+    font-style: italic;
+}
+
+body.topbar {
+    background-image: url("https://i.pinimg.com/1200x/24/8e/4d/248e4d2ff1ee709dc85b61e8411f0342.jpg");
+}
+
+.topbar a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body.sidebar {
+    background-image: url("https://i.pinimg.com/736x/36/ab/bf/36abbfe87597f0c307f6b6e78f630fa8.jpg");
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar h3 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    margin: 12px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #000000;
+}
+
+body.content {
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://i.pinimg.com/736x/27/b1/3c/27b13c25b135d550163a64741e00d175.jpg");
+}
+
+
+body.fantasy {
+    background-image: url("https://i.pinimg.com/1200x/70/07/22/70072269dd64be4aeacdbf941fda71bc.jpg");
+}
+
+body.romance {
+    background-image: url("https://i.pinimg.com/1200x/e7/e5/b0/e7e5b08ff7bf177607e58ef565b8c2e1.jpg");
+}
+
+body.action {
+    background-image: url("https://i.pinimg.com/736x/36/3a/05/363a05ba5c7700b20b29898fd7c5a0f1.jpg");
+}
+
+body.thriller {
+    background-image: url("https://i.pinimg.com/1200x/2e/36/0f/2e360f355bf2b7505dc877d249d72d71.jpg");
+}
+
+body.fiction {
+    background-image: url("https://i.pinimg.com/1200x/78/85/b7/7885b7216437601598a21bca10751bec.jpg");
+}
+
+
+body.logo {
+    background-image: url("https://i.pinimg.com/736x/36/ab/bf/36abbfe87597f0c307f6b6e78f630fa8.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+}
